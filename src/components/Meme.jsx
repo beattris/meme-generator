@@ -19,7 +19,7 @@ export const Meme = () => {
         </div>
         <button className="meme-button" onClick={getMemeImage}>Get a new meme image 🖼</button>
         </div>
-        <img src={memeImage} alt="" />
+        <img src={memeImage} alt="" className="meme-image"/>
     </main>
   );
 };
